@@ -34,18 +34,3 @@ SecureVault is a robust and modular Spring Boot web application that provides mu
 | Tools | Maven, IntelliJ / Eclipse, Git, Postman |
 
 ---
-
-## 📁 Project Structure
-securevault/
-├── src/main/java/
-│ └── com.securevault/
-│ ├── config/ # Security configuration classes
-│ ├── controller/ # Auth and dashboard controllers
-│ ├── entity/ # JPA entity classes (User, Role)
-│ ├── repository/ # JPA repository interfaces
-│ ├── service/ # Business logic and services
-│ └── SecureVaultApplication.java
-├── src/main/resources/
-│ ├── templates/ # Thymeleaf HTML templates
-│ ├── static/ # CSS, JS, and images
-│ └── application.properties # DB & mail configurations
